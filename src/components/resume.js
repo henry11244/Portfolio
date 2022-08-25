@@ -11,7 +11,6 @@ function Resume() {
             <a class=" d-flex justify-content-center" href="Henry-Nguyen_Resume 8-14-22.pdf">Download Resume</a>
         </div>
     )
-
 }
 
 export default Resume;

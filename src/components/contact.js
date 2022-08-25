@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <div >
+        <div class='col-12'>
 
             <div class="d-flex justify-content-center">
                 <h2>Contact</h2>
@@ -18,9 +18,6 @@ function Contact() {
                     <div class="form-outline mb-4">
                         <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
                     </div>
-
-
-
                     <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
                 </form>
             </div>

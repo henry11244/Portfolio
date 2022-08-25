@@ -1,6 +1,5 @@
 
 import React from 'react';
-
 import Projects from './components/projects';
 import Resume from './components/resume';
 import Contacts from './components/contact';
@@ -8,11 +7,11 @@ import AboutMe from './components/aboutMe';
 
 const currentPath = window.location.pathname
 const pathFunction = () => {
-  if (currentPath === '/Resume') { return (<Resume />) }
-  else if (currentPath === '/Projects') { return <Projects /> }
-  else if (currentPath === '/Contact') { return <Contacts /> }
-  else if (currentPath === '/') { return <AboutMe /> }
-  else { return <AboutMe /> }
+  if (currentPath === '/Resume') { return (<Resume id='resume' />) }
+  else if (currentPath === '/Projects') { return <Projects id='project' /> }
+  else if (currentPath === '/Contact') { return <Contacts id='Contacts' /> }
+  else if (currentPath === '/AboutMe') { return <AboutMe id='aboutMe' /> }
+  else { return <AboutMe id='aboutMe' /> }
 }
 
 function App() {

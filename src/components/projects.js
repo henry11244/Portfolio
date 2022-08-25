@@ -53,9 +53,7 @@ function Projects() {
                     class="d-flex flex-column justify-content-end">JavaScript Quiz</a>
             </div>
         </div>
-
     )
-
 }
 
 export default Projects;
