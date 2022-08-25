@@ -1,4 +1,4 @@
-import './App.css';
+
 import React from 'react';
 
 import Projects from './components/projects';
@@ -11,19 +11,13 @@ const pathFunction = () => {
   if (currentPath === '/Resume') { return (<Resume />) }
   else if (currentPath === '/Projects') { return <Projects /> }
   else if (currentPath === '/Contact') { return <Contacts /> }
+  else if (currentPath === '/') { return <AboutMe /> }
   else { return <AboutMe /> }
 }
 
 function App() {
-
-  // const currentPage = useLocation().pathname;
-  // console.log(currentPage)
-
   const currentPath = window.location.pathname
   console.log(currentPath)
-
-
-
   return (
 
     <div className="main" class="d-flex justify-content-center col-12">

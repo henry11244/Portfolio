@@ -16,12 +16,10 @@
   <title>Portfolio</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Henry Nguyen</a>
+    <a class="navbar-brand" href="/">Henry Nguyen</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,128 +27,36 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#about-me">About Me <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/">About Me <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Projects<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="Projects">Projects<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Resume<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="Resume">Resume<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="Contact">Contact<span class="sr-only">(current)</span></a>
         </li>
 
       </ul>
     </div>
   </nav>
 
-  <!-- about me -->
-  <div class="d-flex justify-content-center flex-wrap">
-    <h2 class="" id="about-me">About Me</h2>
-    <br>
 
-    <p>As a full-stack web developer, I utilize front-end technology such as HTML, JavaScript, React, Handlebars,
-      Bootstrap and jQuery to create exciting, immersive digital destinations that have a lasting impact on visitors. To
-      add functionality to these applications, utilize technology such as Node, Express, MySQL, MongoDB and GraphQL to
-      build the back-end of an application.
-      <br>
-      <br>
-      Additional to my experiences as a full-stack web developer, I have project management skills and managed financial
-      reporting for both multiple billion-dollar corporations as well as a consulting firms.
-    </p>
-  </div>
 
-  <br>
-  <div class="">
-    <div class="d-flex justify-content-center">
-      <h2>Resume</h2>
-    </div>
-    <div class="d-flex justify-content-center">
-      <iframe src="Henry-Nguyen_Resume 8-14-22.pdf" frameborder="0"
-        style="border: 0; width:30%; height: 500px"></iframe>
-    </div>
-    <a class=" d-flex justify-content-center" href="Henry-Nguyen_Resume 8-14-22.pdf">Download Resume</a>
-  </div>
+  <div id="root" class="d-flex justify-content-center"></div>
 
-  <div>
+  <footer class="mt-auto">
     <div class="d-flex justify-content-center">
-      <h2>Projects</h2>
-    </div>
-    <div class="d-flex justify-content-center">
-      <a href="" style="background-image: url('Volunteerist.gif'); width:40%; height: 280px; background-repeat:no-repeat; 
-        color: red; font-weight: bold;" class="d-flex flex-column justify-content-end">Volunteerist</a>
-    </div>
-    <br>
-    <div class="d-flex justify-content-center">
-      <a href="" style="background-image: url('LetsTacoBoutFood.gif'); width:40%; height: 280px; background-repeat:no-repeat; 
-        color: red; font-weight: bold;" class="d-flex flex-column justify-content-end">Let's Taco 'Bout Food</a>
-    </div>
-    <br>
-    <div class="d-flex justify-content-center">
-      <a href="" style="background-image: url('WeatherDashBoard.gif'); width:40%; height: 280px; background-repeat:no-repeat; 
-        color: red; font-weight: bold;" class="d-flex flex-column justify-content-end">Weather Dashboard</a>
-    </div>
-    <br>
-    <div class="d-flex justify-content-center">
-      <a href="" style="background-image: url('WorkDayScheduler.gif'); width:40%; height: 280px; background-repeat:no-repeat; 
-        color: red; font-weight: bold;" class="d-flex flex-column justify-content-end">Workday Scheduler</a>
-    </div>
-    <br>
-    <div class="d-flex justify-content-center">
-      <a href="" style="background-image: url('NoteTaker.gif'); width:40%; height: 280px; background-repeat:no-repeat; 
-        color: red; font-weight: bold;" class="d-flex flex-column justify-content-end">Note Taker</a>
-    </div>
-    <br>
-    <div class="d-flex justify-content-center">
-      <a href="" style="background-image: url('JavaScript.gif'); width:40%; height: 280px; background-repeat:no-repeat; 
-        color: red; font-weight: bold;" class="d-flex flex-column justify-content-end">JavaScript Quiz</a>
+      <a href="https://github.com/henry11244">GitHub</a>
+      <div>⚫</div>
+      <a href="https://www.linkedin.com/in/henry11244/">LinkedIn</a>
+      <div>⚫</div>
+      <a href="mailto:hln11244@gmail.com">Email</a>
     </div>
 
-
-  </div>
-
-
-  <!-- Contact -->
-
-  <div class=>
-
-    <div class="d-flex justify-content-center">
-      <h2>Contact</h2>
-    </div>
-    <br>
-    <div class="d-flex justify-content-center">
-      <form class="col-9">
-        <!-- Name input -->
-        <div class="form-outline mb-4">
-          <input type="text" id="name" class="form-control" placeholder="Name" />
-        </div>
-
-        <!-- Email input -->
-        <div class="form-outline mb-4">
-          <input type="email" id="email" class="form-control" placeholder="Email Address" />
-        </div>
-
-        <!-- Message input -->
-        <div class="form-outline mb-4">
-          <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
-        </div>
-
-        <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
-          <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
-
-          <label class="form-check-label" for="form4Example4">
-            <br>
-            Send me a copy of this message
-          </label>
-        </div>
-
-        <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
-      </form>
-    </div>
-  </div>
+  </footer>
 </body>
 
 </html>
