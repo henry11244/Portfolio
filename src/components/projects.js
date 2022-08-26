@@ -14,14 +14,14 @@ function Projects() {
             <br></br>
             <div class="d-flex justify-content-center">
                 <a href="https://henry11244.github.io/letsTacoBoutFood/" style={{
-                    backgroundImage: `url('LetsTacoBoutFood.gif')`, width: '40%', height: '280px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
+                    backgroundImage: `url('LetsTacoBoutFood.gif')`, width: '40%', height: '250px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
                     color: 'red', fontWeight: 'bold'
                 }} class="d-flex flex-column justify-content-end">Let's Taco 'Bout Food</a>
             </div>
             <br></br>
             <div class="d-flex justify-content-center">
                 <a href="https://henry11244.github.io/WeatherDashboard/" style={{
-                    backgroundImage: `url('WeatherDashBoard.gif')`, width: '40%', height: '280px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
+                    backgroundImage: `url('WeatherDashBoard.gif')`, width: '40%', height: '250px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
                     color: 'red', fontWeight: 'bold'
                 }} class="d-flex flex-column justify-content-end">Weather Dashboard</a>
             </div>
@@ -29,7 +29,7 @@ function Projects() {
             <div class="d-flex justify-content-center">
                 <a href="https://henry11244.github.io/WorkDayScheduler/"
                     style={{
-                        backgroundImage: `url('WorkDayScheduler.gif')`, width: '40%', height: '280px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
+                        backgroundImage: `url('WorkDayScheduler.gif')`, width: '40%', height: '250px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
                         color: 'red', fontWeight: 'bold'
                     }}
                     class="d-flex flex-column justify-content-end">Workday Scheduler</a>
@@ -38,7 +38,7 @@ function Projects() {
             <div class="d-flex justify-content-center">
                 <a href="https://henry-note-pad.herokuapp.com/"
                     style={{
-                        backgroundImage: `url('NoteTaker.gif')`, width: '40%', height: '280px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
+                        backgroundImage: `url('NoteTaker.gif')`, width: '40%', height: '250px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
                         color: 'red', fontWeight: 'bold'
                     }}
                     class="d-flex flex-column justify-content-end">Note Taker</a>
@@ -47,7 +47,7 @@ function Projects() {
             <div class="d-flex justify-content-center">
                 <a href="https://henry11244.github.io/JavaQuiz/"
                     style={{
-                        backgroundImage: `url('JavaScript.gif')`, width: '40%', height: '280px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
+                        backgroundImage: `url('JavaScript.gif')`, width: '40%', height: '250px', backgroundSize: '600px', backgroundRepeat: 'no-repeat',
                         color: 'red', fontWeight: 'bold'
                     }}
                     class="d-flex flex-column justify-content-end">JavaScript Quiz</a>
