@@ -28,7 +28,7 @@ function Main() {
     return (
 
         < div className="main" class='' >
-            <nav class="navbar navbar-expand-lg navbar-light bg-light col-12 justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-light  col-12 justify-content-center">
 
                 <div class="collapse navbar-collapse col-12 d-flex flex-wrap justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
