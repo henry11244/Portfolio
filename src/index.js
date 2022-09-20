@@ -6,14 +6,7 @@ import App from './App';
 ReactDOM.render(
   <React.StrictMode>
     <Router basename={process.env.PUBLIC_URL}>
-      <Routes>
-        <Route
-          path="*"
-          element={<App />}
-          exact={false}
-          strict={false}
-        />
-      </Routes>
+      <App />
     </Router>
   </React.StrictMode>
   ,
