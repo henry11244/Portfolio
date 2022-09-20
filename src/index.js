@@ -4,7 +4,19 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
 
 ReactDOM.render(
-  <App />
+  <React.StrictMode>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Routes>
+        <Route
+          path="*"
+          element={<App />}
+          exact={false}
+          strict={false}
+        />
+        <p>test</p>
+      </Routes>
+    </Router>
+  </React.StrictMode>
   ,
   document.getElementById('root')
 );
