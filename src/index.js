@@ -19,7 +19,7 @@ ReactDOM.render(
         </Routes>
       </Router>
     </React.StrictMode>
-    <p>test</p>
+
   </div>
   ,
   document.getElementById('root')
