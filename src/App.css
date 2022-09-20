@@ -14,6 +14,10 @@ nav {
     background-color: rgb(100, 124, 126);
 }
 
+.submit {
+    background-color: rgb(82, 183, 91);
+}
+
 h2 {
     color: rgb(39, 125, 136);
     font-weight: bold;

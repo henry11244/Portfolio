@@ -6,11 +6,18 @@ function Projects() {
                 <h2>Projects</h2>
             </div>
             <div class="d-flex justify-content-center project-container">
+                <a href="https://jeromes-bootcamp-adventure.herokuapp.com/" style={{
+                    backgroundImage: `url('BootcampAdventures.gif')`
+                }} class="d-flex flex-column justify-content-end projects">Bootcamp Adventures</a>
+            </div>
+            <br></br>
+            <div class="d-flex justify-content-center project-container">
                 <a href="https://volunteerists.herokuapp.com/" style={{
                     backgroundImage: `url('Volunteerist.gif')`
                 }} class="d-flex flex-column justify-content-end projects">Volunteerist</a>
             </div>
             <br></br>
+
             <div class="d-flex justify-content-center project-container">
                 <a href="https://henry11244.github.io/letsTacoBoutFood/" style={{
                     backgroundImage: `url('LetsTacoBoutFood.gif')`

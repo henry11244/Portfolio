@@ -1,40 +1,162 @@
+import React, { useState } from 'react';
+import { validateEmail } from '../utils/helpers';
 import emailjs from '@emailjs/browser';
 
-function Contact() {
+const styles = {
+    container: {
+        flexGrow: 1,
+    },
+    form: {
+        display: 'flex',
+        flexFlow: 'row wrap',
+        gap: 20,
 
-    function emailValidation(email) {
-        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(String(email).toLowerCase());
+    },
+    info: {
+        flex: '1 1 30%',
+
+    },
+    message: {
+        flex: '1 1 80%',
+
+    },
+    error: {
+
+    }
+}
+
+function Contact() {
+    // Form state, initially empty
+    const [formState, setFormState] = useState(
+        {
+            name: '',
+            email: '',
+            message: '',
+        }
+    );
+
+    // Error message state
+    const [errorMessage, setErrorMessage] = useState('');
+
+    const handleInputChange = ({ target }) => {
+        // Update form state
+        let newFormState = { ...formState };
+        newFormState[target.name] = target.value;
+        setFormState(newFormState);
+
+        // Clear error message when valid email is entered
+        if (validateEmail(newFormState.email)) {
+            setErrorMessage('');
+        }
+    };
+
+    // Check for valid email
+    const checkEmail = () => {
+        if (!validateEmail(formState.email)) {
+            setErrorMessage('Valid email is required');
+            return false;
+        } else {
+            return true;
+        }
     }
 
+    // Check name not blank
+    const checkName = () => {
+        if (!formState.name.trim()) {
+            setErrorMessage('Name required');
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    // Check message not blank
+    const checkMessage = () => {
+        if (!formState.message.trim()) {
+            setErrorMessage('Message required');
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+
+        if (checkEmail() && checkName() && checkMessage()) {
+            // Send email via emailjs
+            // const formData = { 
+            //     user_name: formState.name, 
+            //     user_email: formState.email,
+            //     message: formState.message
+            // }
+
+            emailjs.send('service_nji1wwg', 'template_ug48xci', formState, 'SW7DubgWn1Wjaa_53')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
+
+            // Confirm message sent and reset form
+            alert(`Message sent!`);
+            setFormState(
+                {
+                    name: '',
+                    email: '',
+                    message: '',
+                }
+            )
+        } else {
+            alert(`Message failed!`);
+        }
+    };
 
     return (
-        <div class='col-12'>
-
-            <div class="d-flex justify-content-center">
-                <h2>Contact</h2>
-            </div>
-
-            <div class="d-flex justify-content-center">
-                <form class="col-9">
-
-                    <div class="form-outline mb-4">
-                        <input type="text" id="name" class="form-control" placeholder="Name" />
+        <article >
+            <h2 class="col-12 justify-content-center d-flex " >Contacts</h2>
+            <div class="justify-content-center d-flex ">
+                <form id="contact-form" class=" col-9" style={styles.form}>
+                    <input
+                        value={formState.email}
+                        name="email"
+                        onChange={handleInputChange}
+                        onBlur={checkEmail}
+                        type="email"
+                        placeholder="Email"
+                        style={styles.info}
+                    />
+                    <input
+                        value={formState.name}
+                        name="name"
+                        onChange={handleInputChange}
+                        onBlur={checkName}
+                        type="text"
+                        placeholder="Name"
+                        style={styles.info}
+                    />
+                    <textarea
+                        value={formState.message}
+                        name="message"
+                        onChange={handleInputChange}
+                        onBlur={checkMessage}
+                        type="text"
+                        placeholder="Message"
+                        style={styles.message}
+                        rows="5"
+                    />
+                    <div class="col-12 justify-content-center d-flex">
+                        <button type="button" class="submit btn-primary" onClick={handleFormSubmit}>Submit</button>
                     </div>
-                    <div class="form-outline mb-4">
-                        <input type="email" id="email" class="form-control" placeholder="Email Address" />
-                    </div>
-                    <div class="form-outline mb-4">
-                        <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
                 </form>
+                {errorMessage && (
+                    <div>
+                        <p style={styles.error}>{errorMessage}</p>
+                    </div>
+                )}
             </div>
-        </div>
-    )
-
+        </article>
+    );
 }
 
 export default Contact;
-
-
