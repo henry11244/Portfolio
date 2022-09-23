@@ -1,14 +1,12 @@
-body {
-    background-color: rgb(215, 206, 196);
-}
-
 .btn-primary {
     background-color: rgb(83, 98, 131);
     border: .5px solid rgba(184, 184, 221, 0.41);
     border-radius: 20%;
 }
 
-
+p {
+    color: white
+}
 
 nav {
     background-color: rgb(100, 124, 126);
@@ -19,7 +17,7 @@ nav {
 }
 
 h2 {
-    color: rgb(39, 125, 136);
+    color: rgb(19, 168, 168);
     font-weight: bold;
     font-family: fantasy;
 }
