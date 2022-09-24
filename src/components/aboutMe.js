@@ -1,14 +1,20 @@
+import './aboutMe.css'
+import React from 'react'
+import './contact.css'
+
+
 function AboutMe() {
     return (
-        <div class="d-flex justify-content-center flex-wrap">
-
-            <h2 class="col-12 justify-content-center d-flex " >About Me</h2>
-
+        <div className="container aboutMe__container d-flex justify-content-center flex-wrap">
             <div class="d-flex justify-content-center">
                 <img src="profilePic.jfif" style={{ borderRadius: '90px', width: '70%', maxHeight: '85%' }} alt="Profile Pic"></img>
 
             </div>
-            <div class='col-8' style={{}}>
+
+            <h2 class="col-12 justify-content-center d-flex" id="aboutMe" >About Me</h2>
+
+
+            <div class='col-12' style={{}}>
 
                 <p  >
                     Full-stack web developer with exceptional understanding of the business environment as a Certified Public Accountant

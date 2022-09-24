@@ -1,44 +1,29 @@
-.btn-primary {
-    background-color: rgb(83, 98, 131);
-    border: .5px solid rgba(184, 184, 221, 0.41);
-    border-radius: 20%;
-}
-
 p {
-    color: white
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 nav {
     background-color: rgb(100, 124, 126);
 }
 
-.submit {
-    background-color: rgb(82, 183, 91);
-}
+
 
 h2 {
-    color: rgb(19, 168, 168);
+    color: #C9FBFF;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.projects {
-    width: 30%;
-    height: 250px;
-    background-size: 600px;
-    background-repeat: no-repeat;
-    color: red;
-    font-weight: bold;
-    background-position: center;
-}
 
-.project-container {
-    width: 100%;
-    height: 250px;
+body {
+    background-color: #85BDBF;
 
 }
 
-p {
-    text-align: justify;
-    text-justify: inter-word;
+::-webkit-scrollbar {
+    display: none;
 }

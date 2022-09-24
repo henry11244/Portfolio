@@ -1,0 +1,21 @@
+.container.resume__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+
+}
+
+/* hide scrollbar but allow scrolling */
+iframe {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+iframe::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
