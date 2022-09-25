@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9424b563.chunk.css",
-    "main.js": "/static/js/main.29da6c6f.chunk.js",
-    "main.js.map": "/static/js/main.29da6c6f.chunk.js.map",
+    "main.css": "/static/css/main.2af91dd8.chunk.css",
+    "main.js": "/static/js/main.01011f34.chunk.js",
+    "main.js.map": "/static/js/main.01011f34.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9f33c190.js",
     "runtime-main.js.map": "/static/js/runtime-main.9f33c190.js.map",
     "static/js/2.f124e56a.chunk.js": "/static/js/2.f124e56a.chunk.js",
     "static/js/2.f124e56a.chunk.js.map": "/static/js/2.f124e56a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9424b563.chunk.css.map": "/static/css/main.9424b563.chunk.css.map",
+    "static/css/main.2af91dd8.chunk.css.map": "/static/css/main.2af91dd8.chunk.css.map",
     "static/js/2.f124e56a.chunk.js.LICENSE.txt": "/static/js/2.f124e56a.chunk.js.LICENSE.txt",
     "static/media/BloggingSite.15963281.png": "/static/media/BloggingSite.15963281.png",
     "static/media/BootcampAdventures.9f1e12b4.png": "/static/media/BootcampAdventures.9f1e12b4.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.9f33c190.js",
     "static/js/2.f124e56a.chunk.js",
-    "static/css/main.9424b563.chunk.css",
-    "static/js/main.29da6c6f.chunk.js"
+    "static/css/main.2af91dd8.chunk.css",
+    "static/js/main.01011f34.chunk.js"
   ]
 }
