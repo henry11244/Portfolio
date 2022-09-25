@@ -13,6 +13,15 @@
     background-color: #57737A;
 }
 
+.github {
+    background-color: black;
+}
+
+.demo {
+    background-color: #C9FBFF;
+    color: black
+}
+
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;

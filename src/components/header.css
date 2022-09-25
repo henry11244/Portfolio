@@ -1,0 +1,39 @@
+header {
+
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+
+}
+
+h1 {
+    color: #57737A;
+    font-size: 5rem;
+
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+.header__container {
+    text-align: center;
+    position: relative;
+}
+
+/* social icons */
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}

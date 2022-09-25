@@ -1,0 +1,28 @@
+footer {
+    width: max-content;
+    display: block;
+    position: fixed;
+    transform: translateX(-50%);
+    bottom: .01rem;
+    left: 50%;
+    display: flex;
+
+}
+
+footer a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    color: white;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    background: var(--color-bg);
+
+}
+
+footer a.active {
+    background: var(--color-bg);
+}
