@@ -1,28 +1,30 @@
 .container.aboutMe__container {
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    display: flex;
 
 }
 
+
+#profilePic {
+    float: left;
+    width: 15rem;
+    border-radius: .5rem;
+    margin: 0 2rem 0 0;
+    border: solid .5rem #C9FBFF;
+    box-shadow: #9fc5c8 5px 5px, #618284 10px 10px
+}
+
 p {
-    color: rgb(136, 125, 125);
-    font-size: larger;
-    font-weight: bold;
+    color: black;
+    font-size: 1.3rem;
     text-align: justify;
     text-justify: inter-word;
 }
 
-#profilePic {
-    border-radius: 90px;
-    width: 18rem;
-    margin: 8rem 5rem 0 5rem;
-    border: solid .5rem #C9FBFF;
-    box-shadow: #9fc5c8 5px 5px, #618284 10px 10px, #4f7f83 15px 15px, #375759 20px 20px, #080808 25px 25px;
-    left: 12%;
-    top: 10%;
+.left {
+    float: left;
+    padding: 0 20px 20px 0;
 }
+
 
 .about__container {
     display: grid;
@@ -44,6 +46,7 @@ p {
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    float: left;
 }
 
 .about__me-image:hover {
@@ -124,5 +127,16 @@ p {
 
     .about__content p {
         margin: 1.5rem 0;
+    }
+
+    #floated {
+        width: 10rem;
+    }
+
+    p {
+
+        font-size: 1rem;
+        text-align: left;
+        text-justify: inter-word;
     }
 }

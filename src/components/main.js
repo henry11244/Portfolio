@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
-import Portfolio from './portfolio';
-import Resume from './resume';
-import Contacts from './contact';
-import AboutMe from './aboutMe';
-import Nav from './nav';
-import Header from './header';
-import Footer from './footer';
+import React from 'react';
+import Portfolio from './portfolio/portfolio';
+import Resume from './resume/resume';
+import Contacts from './contact/contact';
+import AboutMe from './aboutMe/aboutMe';
+import Nav from './nav/nav';
+import Header from './header/header';
+import Footer from './footer/footer';
 
 
 function Main() {
     return (
 
         < div className="main" class='' >
-            <Header />;
             <Nav />;
+            <Header />;
             <AboutMe />;
             <Portfolio />;
             <Resume />;

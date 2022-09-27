@@ -1,0 +1,22 @@
+.resumeLink {
+    font-weight: bold
+}
+
+
+#resumeImg {
+    width: 70rem;
+}
+
+@media screen and (max-width: 1024px) {
+    #resumeImg {
+        width: 35rem;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    #resumeImg {
+        width: 20rem;
+    }
+}

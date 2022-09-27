@@ -1,0 +1,15 @@
+header {
+    padding-bottom: 2rem;
+}
+
+h1 {
+    color: #57737A;
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+.header__container {
+    text-align: center;
+    position: relative;
+}

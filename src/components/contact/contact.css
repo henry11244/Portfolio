@@ -6,8 +6,6 @@
 
 }
 
-
-
 .contact__options {
     display: flex;
     flex-direction: column;
@@ -17,7 +15,7 @@
 .contact__option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
-    border-radius: 1.2rem;
+    border-radius: .5rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -64,7 +62,17 @@ textarea {
     opacity: .3;
 }
 
-@media screen and (max-width: 1024px) {
+a {
+    color: black
+}
+
+
+.contactLinks {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1255px) {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -75,9 +83,4 @@ textarea {
     .container.contact__container {
         width: var(--container-width-sm);
     }
-}
-
-a {
-    font-weight: bold;
-    color: black
 }

@@ -25,18 +25,18 @@ const Contact = () => {
                         <MdOutlineMail className='contact__option-icon' />
                         <h4>Email</h4>
 
-                        <a href="mailto:hln11244@gmail.com" target='#'><h5>hln11244@gmail.com</h5></a>
+                        <a href="mailto:hln11244@gmail.com" target='#'><h5 className='contactLinks'>hln11244@gmail.com</h5></a>
                     </article>
                     <article className='contact__option'>
                         <AiOutlinePhone className='contact__option-icon' />
                         <h4>Telephone</h4>
 
-                        <a href="tel:+16037482601"><h5>+1 408-628-2303</h5></a>
+                        <a href="tel:+16037482601"><h5 className='contactLinks'>+1 408-628-2303</h5></a>
                     </article>
                     <article className='contact__option'>
                         <BsLinkedin className='contact__option-icon' />
                         <h4>LinkedIn</h4>
-                        <a href="https://www.linkedin.com/in/henry11244" target='#'><h5>linkedin.com/in/henry11244</h5></a>
+                        <a href="https://www.linkedin.com/in/henry11244" target='#'><h5 className='contactLinks'>linkedin.com/in/henry11244</h5></a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
