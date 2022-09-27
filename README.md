@@ -33,7 +33,7 @@
 
 ## About The Project
 
-This project is meant to showcase a sample of my past projects as well as work experience.
+This is just a fun page to show a few of my projects. The profile was created using react to modulize each section. I hope you like it! 😃 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -51,7 +51,7 @@ This project is meant to showcase a sample of my past projects as well as work e
 
 ![Alt Text](gif/Portfolio.gif)
 
-You can navigate to the deployed porfolio page [here](https://henry11244.github.io/Portfolio/).
+You can navigate to the deployed porfolio page [here](https://henrynguyen.org).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Henry Nguyen -  hln11244@gmail.com
 
-Project Link: [https://github.com/henry11244/Portfolio](https://github.com/henry11244/Portfolio)
+Project Link: [https://henrynguyen.org](https://henrynguyen.org)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
