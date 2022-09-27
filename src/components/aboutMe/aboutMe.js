@@ -26,7 +26,7 @@ function AboutMe() {
                 <p>What excites me about web development is the ability to use logic to solve complicated issues. I always get exhilarated from learning about new technologies and how they operate.
                 </p>
                 <p>
-                    For my next career move, I am in search for an entry level software engineer or developer roles. My contact information can be found at the bottom of this page, I would love to connect!
+                    For my next career move, I am in search for an entry level software engineer or developer role. My contact information can be found at the bottom of this page, I would love to connect!
                 </p>
             </div>
 
