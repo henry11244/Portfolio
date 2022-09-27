@@ -14,14 +14,16 @@
 
 .github {
     background-color: black;
-    border: none
+    border: none;
+    color: white
 }
 
-.demo {
-    background-color: #57737A;
-    border: none;
-    color: black
+.github:hover {
+    opacity: .3;
+    color: orange
 }
+
+
 
 .demo:hover {
     background: #85BDBF;
@@ -43,6 +45,10 @@
 .portfolio__item h3 {
     margin: 1.2rem 0 0;
     text-align: center;
+}
+
+.portfolio__item-image:hover {
+    opacity: .3;
 }
 
 .portfolio__item-cta {
