@@ -51,7 +51,7 @@ This is just a fun page to show a few of my projects. The profile was created us
 
 ![Alt Text](gif/Portfolio.gif)
 
-You can navigate to the deployed porfolio page [here](https://henrynguyen.org).
+You can view the page here: [here](https://henrynguyen.org). That's about it, thank you taking a look at my portfolio!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
