@@ -1,11 +1,10 @@
 footer {
-    width: max-content;
-    display: block;
-    position: fixed;
-    transform: translateX(-50%);
-    bottom: .01rem;
-    left: 50%;
+    bottom: 0;
+    z-index: 99;
+    position: -webkit-sticky;
+    position: sticky;
     display: flex;
+    justify-content: center;
 
 }
 

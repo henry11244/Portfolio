@@ -19,8 +19,6 @@ function Main() {
             <Resume />;
             <Contacts />;
             <Footer />;
-
-
         </div >
     )
 

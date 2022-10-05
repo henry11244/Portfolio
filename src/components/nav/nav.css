@@ -1,15 +1,13 @@
 nav {
     background-color: rgb(100, 124, 126);
-    display: flex;
-    padding: 0.7rem 1.7rem;
-    position: sticky;
-    top: 0rem;
-    display: flex;
-    gap: 0.8rem;
-    justify-content: center;
     z-index: 99;
-
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
 }
+
 
 nav a {
     background: transparent;
@@ -21,7 +19,9 @@ nav a {
 }
 
 nav a:hover {
-    background: #57737A;
+    background: #85BDBF;
+    color: black;
+    font-weight: bold;
 }
 
 nav a.active {

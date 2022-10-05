@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import { MdOutlineMail } from 'react-icons/md'
-import { AiOutlinePhone } from 'react-icons/ai'
+import { AiFillGithub } from 'react-icons/ai'
 import { BsLinkedin } from 'react-icons/bs'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
@@ -28,10 +28,9 @@ const Contact = () => {
                         <a href="mailto:hln11244@gmail.com" target='#'><h5 className='contactLinks'>hln11244@gmail.com</h5></a>
                     </article>
                     <article className='contact__option'>
-                        <AiOutlinePhone className='contact__option-icon' />
-                        <h4>Telephone</h4>
-
-                        <a href="tel:+16037482601"><h5 className='contactLinks'>+1 408-628-2303</h5></a>
+                        <AiFillGithub className='contact__option-icon' />
+                        <h4>GitHub</h4>
+                        <a href="https://github.com/henry11244" target='#'><h5 className='Github'>github.com/henry11244</h5></a>
                     </article>
                     <article className='contact__option'>
                         <BsLinkedin className='contact__option-icon' />

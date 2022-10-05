@@ -5,7 +5,7 @@ import React from 'react'
 
 function AboutMe() {
     return (
-        <div id='aboutMe' className='w-full h-screen bg-[#0a192f] text-gray-300 container'>
+        <div id='aboutMe' className='w-full h-screen bg-[#0a192f] text-gray-300 container background1'>
             <div className='sm:text-right pb-8 pl-4'>
                 <h2 className='d-flex justify-content-center flex-wrap'>About Me</h2>
             </div>

@@ -4,6 +4,7 @@
 
 import React from 'react'
 import './portfolio.css'
+// import './portfolio.scss'
 // import portfolio project images
 import JavaScript from './projectImg/JavaScript.png'
 import LetsTacoBoutFood from './projectImg/LetsTacoBoutFood.png'
@@ -15,24 +16,9 @@ import WorkDayScheduler from './projectImg/WorkDayScheduler.png'
 import Volunteerist from './projectImg/Volunteerist.png'
 
 const data = [
+
     {
         id: 1,
-        image: BootcampAdventures,
-        title: 'Bootcamp Adventures',
-        description: 'An interactive game inspired by Flappy Bird',
-        github: 'https://github.com/henry11244/Bootcamp-Adventures',
-        demo: 'https://jeromes-bootcamp-adventure.herokuapp.com/'
-    },
-    {
-        id: 2,
-        image: Volunteerist,
-        title: 'Volunteerist',
-        description: 'Event hosting site with an emphasis on volunteer work',
-        github: 'https://github.com/henry11244/Volunteerist',
-        demo: 'https://volunteerists.herokuapp.com/'
-    },
-    {
-        id: 3,
         image: BloggingSite,
         title: 'Blogging Site',
         description: 'An intuitive site for creating, reading and commenting on blog posts',
@@ -40,12 +26,28 @@ const data = [
         demo: 'https://blogging-site-henry.herokuapp.com/'
     },
     {
-        id: 4,
+        id: 2,
         image: LetsTacoBoutFood,
         title: `Let's Taco 'Bout Food`,
         description: 'Tool for discovering new restaurants',
         github: 'https://github.com/henry11244/letsTacoBoutFood',
         demo: 'https://henry11244.github.io/letsTacoBoutFood/'
+    },
+    {
+        id: 3,
+        image: BootcampAdventures,
+        title: 'Bootcamp Adventures',
+        description: 'An interactive game inspired by Flappy Bird',
+        github: 'https://github.com/henry11244/Bootcamp-Adventures',
+        demo: 'https://jeromes-bootcamp-adventure.herokuapp.com/'
+    },
+    {
+        id: 4,
+        image: Volunteerist,
+        title: 'Volunteerist',
+        description: 'Event hosting site with an emphasis on volunteer work',
+        github: 'https://github.com/henry11244/Volunteerist',
+        demo: 'https://volunteerists.herokuapp.com/'
     },
     {
         id: 5,
@@ -91,7 +93,7 @@ const Portfolio = () => {
                 {
                     data.map(({ id, image, title, description, github, demo }) => {
                         return (
-                            <article key={id} className='portfolio__item'>
+                            <article key={id} className='portfolio__item box'>
                                 <a className='portfolio__item-image' href={demo} target='_blank'>
                                     <img src={image} alt={title} id="portfolioImg" />
                                 </a>
