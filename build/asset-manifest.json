@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3f5267f.chunk.css",
+    "main.js": "/static/js/main.e763394f.chunk.js",
+    "main.js.map": "/static/js/main.e763394f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f33c190.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f33c190.js.map",
+    "static/js/2.c9992673.chunk.js": "/static/js/2.c9992673.chunk.js",
+    "static/js/2.c9992673.chunk.js.map": "/static/js/2.c9992673.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d3f5267f.chunk.css.map": "/static/css/main.d3f5267f.chunk.css.map",
+    "static/js/2.c9992673.chunk.js.LICENSE.txt": "/static/js/2.c9992673.chunk.js.LICENSE.txt",
+    "static/media/BloggingSite.bfe19c83.png": "/static/media/BloggingSite.bfe19c83.png",
+    "static/media/BootcampAdventures.9f1e12b4.png": "/static/media/BootcampAdventures.9f1e12b4.png",
+    "static/media/HN_Resume.b6b47b76.png": "/static/media/HN_Resume.b6b47b76.png",
+    "static/media/HN_Resume.e606fa9b.pdf": "/static/media/HN_Resume.e606fa9b.pdf",
+    "static/media/JavaScript.d0282f8b.png": "/static/media/JavaScript.d0282f8b.png",
+    "static/media/LetsTacoBoutFood.bbad7627.png": "/static/media/LetsTacoBoutFood.bbad7627.png",
+    "static/media/NoteTaker.90473483.png": "/static/media/NoteTaker.90473483.png",
+    "static/media/Volunteerist.98828718.png": "/static/media/Volunteerist.98828718.png",
+    "static/media/WeatherDashBoard.7fbd8798.png": "/static/media/WeatherDashBoard.7fbd8798.png",
+    "static/media/WorkDayScheduler.97de8b34.png": "/static/media/WorkDayScheduler.97de8b34.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f33c190.js",
+    "static/js/2.c9992673.chunk.js",
+    "static/css/main.d3f5267f.chunk.css",
+    "static/js/main.e763394f.chunk.js"
+  ]
+}
